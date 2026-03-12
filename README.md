@@ -24,16 +24,18 @@ Interfaz de usuario moderna y responsive para una aplicación Full-Stack de gest
 * **Peticiones HTTP:** Axios (con interceptores para inyección automática de tokens)
 * **Estilos:** CSS3 nativo (Flexbox, variables, diseño modular y centrado)
 
+---
+
 ## 🚀 Instalación y Uso Local
 
 Para ejecutar este proyecto en tu máquina local, asegúrate de tener [Node.js](https://nodejs.org/) instalado y de que el **Backend** de la aplicación esté corriendo simultáneamente.
 
-### 1. Clonar el repositorio
+1. **Clonar el repositorio**
 ```bash
 git clone https://github.com/AlvaroDG00/App-GestionTareas
 cd App-GestionTareas
 
-2. **Instalar dependencias**
+2. **Instalar dependencias:**
 npm install
 
 3. **Iniciar proyecto**
@@ -51,5 +53,5 @@ src/
       ├── Login.jsx      # Pantalla de inicio de sesión
       └── Register.jsx   # Pantalla de creación de cuenta
 
-👨‍💻 Autor
+##👨‍💻 Autor
 Desarrollado como proyecto académico y de portfolio personal.
