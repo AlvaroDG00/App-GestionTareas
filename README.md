@@ -34,9 +34,12 @@ git clone https://github.com/AlvaroDG00/App-GestionTareas
 cd App-GestionTareas
 
 ### 2. Instalar dependencias
+npm install
+
+### 3. Iniciar proyecto
 npm run dev
 
-##📂 Estructura del Proyecto
+📂 Estructura del Proyecto
 src/
  ├── api.js              # Configuración de Axios e interceptores JWT
  ├── App.jsx             # Enrutador principal y protección de rutas
@@ -48,5 +51,5 @@ src/
       ├── Login.jsx      # Pantalla de inicio de sesión
       └── Register.jsx   # Pantalla de creación de cuenta
 
-##👨‍💻 Autor
+👨‍💻 Autor
 Desarrollado como proyecto académico y de portfolio personal.
