@@ -1,0 +1,100 @@
+/* Contenedor para centrar la tarjeta en la pantalla */
+/* Contenedor principal a prueba de balas */
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;  /* 100% del alto de tu monitor */
+  width: 100vw;       /* 100% del ancho de tu monitor */
+  position: fixed;    /* Ignora los márgenes por defecto de React */
+  top: 0;
+  left: 0;
+  background-color: #f4f7f6; /* Un gris muuuy clarito para que la tarjeta blanca resalte */
+  box-sizing: border-box;
+}
+
+/* La tarjeta blanca principal */
+.auth-card {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  width: 100%;
+  max-width: 400px;
+  border: 1px solid #f0f0f0;
+  text-align: center;
+}
+
+.auth-card h2 {
+  margin-top: 0;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+/* El formulario por dentro */
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Reutilizamos el estilo de los inputs del Dashboard */
+.input-modern {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  outline: none;
+  transition: border-color 0.2s;
+  font-size: 15px;
+}
+
+.input-modern:focus {
+  border-color: #2196f3;
+}
+
+/* Reutilizamos el botón del Dashboard, pero un poco más grande */
+.btn-modern {
+  padding: 12px 15px;
+  background: #2196f3;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 16px;
+  transition: background 0.2s;
+  margin-top: 10px;
+}
+
+.btn-modern:hover {
+  background: #1976d2;
+}
+
+/* Estilos para los enlaces de "Regístrate aquí" */
+.auth-link {
+  margin-top: 25px;
+  color: #666;
+  font-size: 14px;
+}
+
+.auth-link a {
+  color: #2196f3;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.auth-link a:hover {
+  text-decoration: underline;
+}
+
+/* Caja roja para errores */
+.error-box {
+  background: #ffebee;
+  color: #c62828;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  border: 1px solid #ef9a9a;
+  font-size: 14px;
+  font-weight: 500;
+}
