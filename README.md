@@ -33,10 +33,10 @@ Para ejecutar este proyecto en tu máquina local, asegúrate de tener [Node.js](
 git clone https://github.com/AlvaroDG00/App-GestionTareas
 cd App-GestionTareas
 
-### 2. Instalar dependencias
+2. **Instalar dependencias**
 npm install
 
-### 3. Iniciar proyecto
+3. **Iniciar proyecto**
 npm run dev
 
 📂 Estructura del Proyecto
