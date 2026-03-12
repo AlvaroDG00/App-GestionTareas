@@ -13,7 +13,6 @@
   padding-top: 5vh; /* Un poco de margen por arriba */
 }
 
-
 /* El bloque central acotado */
 .dashboard-wrapper {
   width: 100%;
@@ -34,7 +33,7 @@
   background: #ffffff;
   border-radius: 12px;
   padding: 20px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
   border: 1px solid #f0f0f0;
 }
 
@@ -66,7 +65,7 @@
   background: #ffffff;
   border-radius: 12px;
   padding: 25px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
   border: 1px solid #f0f0f0;
 }
 
@@ -83,7 +82,7 @@
 }
 
 .task-item:hover {
-  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
   transform: translateY(-1px);
 }
 

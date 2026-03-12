@@ -4,9 +4,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;  /* 100% del alto de tu monitor */
-  width: 100vw;       /* 100% del ancho de tu monitor */
-  position: fixed;    /* Ignora los márgenes por defecto de React */
+  min-height: 100vh; /* 100% del alto de tu monitor */
+  width: 100vw; /* 100% del ancho de tu monitor */
+  position: fixed; /* Ignora los márgenes por defecto de React */
   top: 0;
   left: 0;
   background-color: #f4f7f6; /* Un gris muuuy clarito para que la tarjeta blanca resalte */
@@ -18,7 +18,7 @@
   background: #ffffff;
   padding: 40px;
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   width: 100%;
   max-width: 400px;
   border: 1px solid #f0f0f0;
